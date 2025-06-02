@@ -50,6 +50,7 @@ body, html {
 /* About Section */
 .about {
   position: relative;
+  background-image: url('SamSan BG Camera.jpg');
   height: auto;
   background-image: url('about-background.jpg'); /* Replace with your image */
   background-size: cover;
