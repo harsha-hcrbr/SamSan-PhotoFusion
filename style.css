@@ -17,7 +17,7 @@ body, html {
   flex-direction: column;
   align-items: center;
   padding: 20px 0;
-  background-color: #0B3D0B;
+  background-color: #000;
   position: sticky;
   top: 0;
   z-index: 1000;
