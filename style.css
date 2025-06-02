@@ -74,11 +74,13 @@ body, html {
 .about-text ul {
   list-style: disc;
   padding-left: 20px;
+  color: #FFF1B8
 }
 
 .about-text li {
   margin-bottom: 15px;
   line-height: 1.6;
+  color: #FFF1B8
 }
 
 /* Services Section */
