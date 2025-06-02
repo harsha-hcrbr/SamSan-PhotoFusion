@@ -31,11 +31,11 @@ body, html {
   margin-bottom: 10px;
 }
 
-.nav {
+.navlink {
   display: flex;
   justify-content: center;
   gap: 40px;
-  color: #000000;
+  color: #FFF1B8;
 }
 
 .nav a {
