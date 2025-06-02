@@ -18,7 +18,7 @@ body, html {
   flex-direction: column;
   align-items: center;
   padding: 20px 0;
-  background-color: #000000;
+  background-color: #FFF1B8;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -70,7 +70,7 @@ body, html {
 }
 
 .about-text h2 {
-  color: #000000;
+  color: #FFF1B8;
   margin-bottom: 20px;
 }
 
