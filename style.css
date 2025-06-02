@@ -59,7 +59,6 @@ body, html {
 }
 
 .about-overlay {
-  background-color:#000000;
   color: #FFF1B8;
   padding: 40px;
   border-radius: 8px;
@@ -75,13 +74,11 @@ body, html {
 .about-text ul {
   list-style: disc;
   padding-left: 20px;
-  color: #000000;
 }
 
 .about-text li {
   margin-bottom: 15px;
   line-height: 1.6;
-  color: #000000;
 }
 
 /* Services Section */
