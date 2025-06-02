@@ -59,6 +59,9 @@ body, html {
 }
 
 .about-overlay {
+  background-image: url('SamSanBGCamera.jpg');
+  background-size: cover;
+  background-position: center;
   color: #FFF1B8;
   padding: 40px;
   border-radius: 8px;
