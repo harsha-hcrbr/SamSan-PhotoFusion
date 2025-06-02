@@ -1,60 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SamSan PhotoFusion</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SamSan PhotoFusion</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body, html {
+      height: 100%;
+      font-family: Arial, sans-serif;
+    }
+    .hero {
+      background-image: url('your-background-image.jpg'); /* Replace with your image file */
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.5);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+    }
+    .content {
+      z-index: 2;
+      position: relative;
+    }
+    nav {
+      position: absolute;
+      top: 20px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      z-index: 2;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>SamSan PhotoFusion</h1>
-        <nav>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#services">Services</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
-
-    <section class="hero">
-        <h2>Capturing Life's Realest Moments</h2>
-        <p>Events • Portraits • Weddings • Outdoor Family Shoots</p>
-    </section>
-
-    <section id="portfolio">
-        <h2>Portfolio</h2>
-        <div class="gallery">
-            <img src="https://via.placeholder.com/300x200?text=Photo+1" alt="Sample Photo 1">
-            <img src="https://via.placeholder.com/300x200?text=Photo+2" alt="Sample Photo 2">
-            <img src="https://via.placeholder.com/300x200?text=Photo+3" alt="Sample Photo 3">
-        </div>
-    </section>
-
-    <section id="services">
-        <h2>Services</h2>
-        <ul>
-            <li>Event Photography</li>
-            <li>Portrait Photography</li>
-            <li>Wedding Photography</li>
-            <li>Outdoor Family Shoots</li>
-        </ul>
-    </section>
-
-    <section id="about">
-        <h2>About</h2>
-        <p>Hi, I'm Harsha — the eye behind the lens at SamSan PhotoFusion. I specialize in capturing real, raw, and beautiful moments across events, portraits, weddings, and family adventures outdoors.</p>
-    </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:info@samsanphotofusion.com.au">info@samsanphotofusion.com.au</a></p>
-        <p>Phone: <a href="tel:+61406038703">(+61)-406038703</a></p>
-        <p>Instagram: <a href="https://instagram.com/samsanphotofusion" target="_blank">@samsanphotofusion</a></p>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 SamSan PhotoFusion. All rights reserved.</p>
-    </footer>
+  <div class="hero">
+    <div class="overlay"></div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="content">
+      <h1>SamSan PhotoFusion</h1>
+      <p>Capturing Emotion, Light, and Connection</p>
+    </div>
+  </div>
 </body>
 </html>
