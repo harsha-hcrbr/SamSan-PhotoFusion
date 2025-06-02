@@ -59,6 +59,7 @@ body, html {
 
 .about-overlay {
   background-color: rgba(0, 0, 0, 0.6);
+  color: #000000;
   padding: 40px;
   border-radius: 8px;
   max-width: 900px;
@@ -83,6 +84,7 @@ body, html {
 /* Services Section */
 .services {
   padding: 60px 20px;
+  color: #000000;
   text-align: center;
 }
 
@@ -93,17 +95,20 @@ body, html {
 
 .services ul {
   list-style: none;
+  color: #000000;
 }
 
 .services li {
   margin: 10px 0;
   font-size: 1.1rem;
+  color: #000000;
 }
 
 /* Contact Section */
 .contact {
   padding: 60px 20px;
   text-align: center;
+  color: #000000;
 }
 
 .contact h2 {
