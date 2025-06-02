@@ -18,7 +18,7 @@ body, html {
   flex-direction: column;
   align-items: center;
   padding: 20px 0;
-  background-color: #FFF1B8;
+  background-color: #000000;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -26,7 +26,6 @@ body, html {
 
 .brand {
   font-family: 'Fugaz One', cursive;
-  background-color: #000000;
   color: #FFF1B8;
   font-size: 2.5rem;
   margin-bottom: 10px;
