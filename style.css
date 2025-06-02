@@ -26,6 +26,7 @@ body, html {
 
 .brand {
   font-family: 'Fugaz One', cursive;
+  background-color: #000000;
   color: #FFF1B8;
   font-size: 2.5rem;
   margin-bottom: 10px;
