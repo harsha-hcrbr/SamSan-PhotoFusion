@@ -51,6 +51,8 @@ body, html {
 .about {
   position: relative;
   background-image: url('SamSan BG Camera.jpg');
+  background-size: cover;
+  background-position: center;
   height: auto;
   background-image: url('about-background.jpg'); /* Replace with your image */
   background-size: cover;
