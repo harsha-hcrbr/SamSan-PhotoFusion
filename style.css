@@ -38,9 +38,9 @@ body, html {
 
 .nav a {
   text-decoration: none;
-  color: #000000;
+  color: #ffffff;
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 1.0rem;
 }
 
 .nav a:hover {
