@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right bottom, #0f0f0f, #1a1a1a);
+  color: #fff8dc;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.page-title {
+  font-family: 'Fugaz One', cursive;
+  font-size: 2.8rem;
+  color: #FFD700;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #e0c97d;
+  margin-bottom: 40px;
+}
+
+.brand {
+  font-weight: bold;
+  color: #FFF1B8;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+.category {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #FFD700;
+  border-radius: 12px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.category:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 12px rgba(255, 215, 0, 0.3);
+}
+
+.category h2 {
+  color: #FFD700;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #FFD700;
+  padding-bottom: 5px;
+}
+
+.category ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.category ul li {
+  padding: 6px 0;
+  border-bottom: 1px dashed #555;
+  color: #eee;
+}
+
+.category ul li:last-child {
+  border-bottom: none;
+}
