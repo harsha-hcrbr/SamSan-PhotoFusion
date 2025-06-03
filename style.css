@@ -49,6 +49,7 @@ body, html {
 
 /* About Section */
 .about {
+  background-image: url('SamSanBGCamera.jpg');
   position: relative;
   background-size: cover;
   background-position: center;
@@ -58,7 +59,6 @@ body, html {
 }
 
 .about-overlay {
-  background-image: url('SamSanBGCamera.jpg');
   background-size: cover;
   background-position: center;
   color: #FFF1B8;
