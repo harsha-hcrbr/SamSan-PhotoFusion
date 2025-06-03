@@ -17,13 +17,48 @@
       <a href="contact.html">Contact</a>
     </navlink>
 </header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | SamSan PhotoFusion</title>
+  <link rel="stylesheet" href="contact.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+</head>
 <body>
-  <section id="contact" class="contact">
-    <h2>Contact</h2>
-    <li><strong>Name:</strong> Harsha</li>
-    <li><strong>Phone:</strong> (+61) 406038703</li>
-    <li><strong>Email:</strong> <a href="mailto:info@samsanphotofusion.com.au">info@samsanphotofusion.com.au</a></li>
-    <li><strong>Facebook & Instagram:</strong> @samsanphotofusion</li>
-  </section>
+
+  <div class="contact-container">
+    <h1 class="title">Contact <span>SamSan PhotoFusion</span></h1>
+    <p class="intro">Let’s capture something amazing together! Fill out the form or reach out directly.</p>
+
+    <form action="https://formspree.io/f/your_form_id" method="POST" class="contact-form">
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" required>
+
+      <label for="message">Message</label>
+      <textarea name="message" id="message" rows="6" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="direct-contact">
+      <p><strong>Email:</strong> <a href="mailto:info@samsanphotofusion.com.au">info@samsanphotofusion.com.au</a></p>
+      <p><strong>Phone:</strong> +61 406038703</p>
+      <p><strong>Location:</strong> Willetton, WA</p>
+    </div>
+
+    <div class="socials">
+      <a href="https://instagram.com/yourprofile" target="_blank">Instagram</a>
+      <a href="https://facebook.com/yourprofile" target="_blank">Facebook</a>
+      <a href="https://wa.me/91XXXXXXXXXX" target="_blank">WhatsApp</a>
+    </div>
+  </div>
+
 </body>
+</html>
+
 </html>
