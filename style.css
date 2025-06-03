@@ -31,6 +31,7 @@ body, html {
 }
 
 .navlink {
+  font-family: 'Fugaz One', cursive;
   display: flex;
   justify-content: center;
   gap: 150px;
@@ -73,8 +74,7 @@ body, html {
 }
 
 .about-text {
-  font-family: 'Fugaz One', cursive;
-  color: #FFF1B8;
+  color: #FFFFFF;
   max-width: 900px;
   margin: 0 auto;
   padding: 20px;
