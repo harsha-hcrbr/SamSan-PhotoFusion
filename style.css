@@ -73,13 +73,14 @@ body, html {
 }
 
 .about-text {
+  font-family: 'Fugaz One', cursive;
+  color: #FFF1B8;
   max-width: 900px;
   margin: 0 auto;
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.05); /* subtle artistic background */
   border-radius: 12px;
-  line-height: 1.6;
-  font-size: 1.05rem;
+  line-height: 1.5;
+  font-size: 1.0rem;
   word-wrap: break-word;
 }
 
