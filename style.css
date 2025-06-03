@@ -126,3 +126,25 @@ body, html {
   font-size: 1rem;
   color: #000000;
 }
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+<style>
+.mySlides {display: none;}
+.slideshow-container {position: relative; max-width: 100%;}
+</style>
