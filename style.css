@@ -72,6 +72,17 @@ body, html {
   margin: auto;
 }
 
+.about-text {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.05); /* subtle artistic background */
+  border-radius: 12px;
+  line-height: 1.6;
+  font-size: 1.05rem;
+  word-wrap: break-word;
+}
+
 .about-text h2 {
   color: #FFF1B8;
   margin-bottom: 20px;
