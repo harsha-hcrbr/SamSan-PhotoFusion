@@ -148,3 +148,80 @@ body, html {
 .mySlides {display: none;}
 .slideshow-container {position: relative; max-width: 100%;}
 </style>
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #111;
+  color: #fff;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+  padding: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  border: 4px solid #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.02);
+}
+
+/* Lightbox styles */
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  justify-content: center;
+  align-items: center;
+}
+
+.lightbox img {
+  max-width: 90%;
+  max-height: 80%;
+  border: 4px solid #fff;
+  border-radius: 8px;
+}
+
+.lightbox .controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 2em;
+  padding: 0 20px;
+  user-select: none;
+}
+
+.lightbox .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.control-btn {
+  cursor: pointer;
+  padding: 10px;
+}
+
+@media (max-width: 600px) {
+  .lightbox img {
+    max-width: 95%;
+    max-height: 70%;
+  }
+}
