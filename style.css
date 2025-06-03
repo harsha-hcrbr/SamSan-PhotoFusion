@@ -28,7 +28,10 @@ body, html {
   color: #FFF1B8;
   font-size: 2.5rem;
   margin-bottom: 10px;
-}
+  margin: 0;
+  padding: 60px 0;         /* top & bottom padding only */
+  width: 100%;
+  }
 
 .navlink {
   font-family: 'Fugaz One', cursive;
@@ -61,6 +64,7 @@ body, html {
   padding: 100px 20px;
   color: #FFF1B8;
   display: block;
+  text-align: left;
 }
 
 .about-overlay {
@@ -75,13 +79,13 @@ body, html {
 
 .about-text {
   color: #FFFFFF;
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 20px;
+  margin: 0;
+  padding: 20px 40px;
   border-radius: 12px;
   line-height: 1.5;
   font-size: 1.0rem;
   word-wrap: break-word;
+  max-width: none;  
 }
 
 .about-text h2 {
