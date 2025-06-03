@@ -33,12 +33,12 @@ body, html {
   display: flex;
   justify-content: center;
   gap: 40px;
-  color: #FFF1B8;
+  color: #FFFFFF;
 }
 
 .nav a {
   text-decoration: none;
-  color: #ffffff;
+  color: #FFFFFF;
   font-weight: bold;
   font-size: 1.0rem;
 }
