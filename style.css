@@ -75,7 +75,6 @@ body, html {
 }
 
 .about-text {
-.about-text {
   max-width: 800px;          /* Controls the width */
   margin: 2rem auto;         /* Centers the block */
   padding: 1.5rem;           /* Space inside the border */
