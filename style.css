@@ -23,11 +23,14 @@ body, html {
   z-index: 1000;
 }
 
-.brand {
-  font-family: 'Fugaz One', cursive;
-  color: #FFF1B8;
-  font-size: 2.5rem;
-  margin-bottom: 10px;
+.brand{
+      font-family: 'Abril Fatface', serif;
+      font-size: 48px;
+      color: #FFF1B8;
+      text-align: center;
+      padding: 2rem;
+      font-weight: normal;
+      margin-bottom: 10px;
 }
 
 .navlink {
