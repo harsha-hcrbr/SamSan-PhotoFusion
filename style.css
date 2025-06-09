@@ -61,7 +61,8 @@ body, html {
   width: auto;
   height: auto;
   object-fit: cover;
-  padding: 100px 20px;
+  padding: 60px 20px; /* reduced padding */
+  overflow: hidden;   
   color: #FFF1B8;
   display: block;
   text-align: left;
@@ -90,6 +91,7 @@ body, html {
   border-radius: 12px;
   text-align: left;
   margin-left: 20px;
+  margin-right: 500px;
 }
 
 .about-text h2 {
