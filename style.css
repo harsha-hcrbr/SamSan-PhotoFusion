@@ -82,7 +82,7 @@ body, html {
   margin: 2rem 0 2rem 0;       /* Remove horizontal auto-centering */
   padding: 1.5rem;
   border: 2px solid #FFF1B8;
-  background-color: #f9f9f9;
+  background-color: transparent;
   word-wrap: break-word;
   overflow-wrap: break-word;
   font-family: Arial, sans-serif;
