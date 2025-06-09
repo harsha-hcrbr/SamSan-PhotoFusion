@@ -78,16 +78,18 @@ body, html {
 }
 
 .about-text {
-  max-width: 800px;          /* Controls the width */
-  margin: 2rem auto;         /* Centers the block */
-  padding: 1.5rem;           /* Space inside the border */
-  border: 2px solid #FFF1B8; /* Border color as per your brand */
-  background-color: #f9f9f9; /* Optional: light background for contrast */
-  word-wrap: break-word;     /* Ensures long words don’t overflow */
-  overflow-wrap: break-word; /* More modern alternative */
-  font-family: Arial, sans-serif; /* Choose a clean font */
-  line-height: 1.6;          /* Better readability */
-  border-radius: 12px; 
+  max-width: none;             /* Remove width limit */
+  margin: 2rem 0 2rem 0;       /* Remove horizontal auto-centering */
+  padding: 1.5rem;
+  border: 2px solid #FFF1B8;
+  background-color: #f9f9f9;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  border-radius: 12px;
+  text-align: left;
+  margin-left: 20px;
 }
 
 .about-text h2 {
