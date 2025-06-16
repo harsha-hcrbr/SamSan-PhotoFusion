@@ -60,7 +60,7 @@ body, html {
   display: flex;
   justify-content: center;
   gap: 160px;           /* was too wide (e.g., 200px) */
-  margin-top: 0.3rem;  /* Reduce vertical spacing */
+  margin-top: -1.7rem;  /* Reduce vertical spacing */
   flex-wrap: wrap;
 }
 .nav a {
