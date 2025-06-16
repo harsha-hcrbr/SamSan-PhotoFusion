@@ -1,3 +1,10 @@
+.main-wrapper {
+  min-height: calc(100vh - 120px); /* Adjust based on your header/footer height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 body {
   margin: 0;
   font-family: 'Arial', sans-serif;
@@ -26,9 +33,23 @@ body {
   margin-bottom: 40px;
 }
 
+/* Adjust brand spacing */
 .brand {
-  font-weight: bold;
-  color: #FFF1B8;
+  font-family: 'Broadway', Arial, sans-serif;
+  font-size: 60px;         /* Optional: reduce text size slightly */
+  padding: 0.5rem 0;       /* was 2rem — reduce vertical spacing */
+  margin-bottom: 0.3rem;   /* was 10px — bring nav closer */
+}
+
+/* Tighter spacing between nav and brand */
+.navlink {
+  font-family: 'Broadway', Arial, sans-serif;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  gap: 160px;           /* was too wide (e.g., 200px) */
+  margin-top: -1.7rem;  /* Reduce vertical spacing */
+  flex-wrap: wrap;
 }
 
 .grid {
