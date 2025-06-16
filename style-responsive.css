@@ -29,7 +29,7 @@ body, html {
 /* Reduce height and control width of the header */
 .header {
   background-color: #000;
-  padding: 10px 0;  /* was 36px — reduce top/bottom space */
+  padding: 0px 0;  /* was 36px — reduce top/bottom space */
   position: sticky;
   top: 0;
   z-index: 1000;
