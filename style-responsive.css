@@ -28,10 +28,7 @@ body, html {
 
 /* Reduce height and control width of the header */
 .header {
-  background-image: url('GalleryImages/SamSan Perth.jpg'); /* Replace with your image path */
-  background-size: cover;   /* Scales the image to cover the header */
-  background-position: center; /* Centers the image */
-  background-repeat: no-repeat; /* Prevents tiling */
+  background-color: #000000;
   padding: 0px 0;  /* was 36px — reduce top/bottom space */
   position: sticky;
   top: 0;
