@@ -1,8 +1,76 @@
+/* General Reset */
+* 
 .main-wrapper {
   min-height: calc(100vh - 120px); /* Adjust based on your header/footer height */
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color:#FFFFFF;
+}
+
+body, html {
+  font-family: Arial, sans-serif;
+  color: #FFF1B8;
+  font-size: 16px;
+  line-height: 1.6;
+  overflow-x: hidden;
+  background: linear-gradient(to right bottom, #0f0f0f, #1a1a1a);
+}
+
+/* Header */
+
+/* Reduce height and control width of the header */
+.header {
+  background-color: #000000;
+  padding: 0px 0;  /* was 36px — reduce top/bottom space */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Limit width of header content */
+.header-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Adjust brand spacing */
+.brand {
+  font-family: 'Broadway', Arial, sans-serif;
+  font-size: 56px;         /* Optional: reduce text size slightly */
+  padding: 0.5rem 0;       /* was 2rem — reduce vertical spacing */
+  margin-bottom: 0.3rem;   /* was 10px — bring nav closer */
+}
+
+/* Tighter spacing between nav and brand */
+.navlink {
+  font-family: 'Broadway', Arial, sans-serif;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  gap: 160px;           /* was too wide (e.g., 200px) */
+  margin-top: -1.7rem;  /* Reduce vertical spacing */
+  flex-wrap: wrap;
+}
+.nav a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.nav a:hover {
+  text-decoration: underline;
 }
 
 body {
@@ -31,25 +99,6 @@ body {
   font-size: 1.1rem;
   color: #e0c97d;
   margin-bottom: 20px;
-}
-
-/* Adjust brand spacing */
-.brand {
-  font-family: 'Broadway', Arial, sans-serif;
-  font-size: 60px;         /* Optional: reduce text size slightly */
-  padding: 0.5rem 0;       /* was 2rem — reduce vertical spacing */
-  margin-bottom: 0.3rem;   /* was 10px — bring nav closer */
-}
-
-/* Tighter spacing between nav and brand */
-.navlink {
-  font-family: 'Broadway', Arial, sans-serif;
-  font-size: 28px;
-  display: flex;
-  justify-content: center;
-  gap: 160px;           /* was too wide (e.g., 200px) */
-  margin-top: -1.7rem;  /* Reduce vertical spacing */
-  flex-wrap: wrap;
 }
 
 .grid {
