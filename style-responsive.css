@@ -48,7 +48,7 @@ body, html {
 /* Adjust brand spacing */
 .brand {
   font-family: 'Broadway', Arial, sans-serif;
-  font-size: 36px;         /* Optional: reduce text size slightly */
+  font-size: 60px;         /* Optional: reduce text size slightly */
   padding: 0.5rem 0;       /* was 2rem — reduce vertical spacing */
   margin-bottom: 0.3rem;   /* was 10px — bring nav closer */
 }
@@ -56,10 +56,10 @@ body, html {
 /* Tighter spacing between nav and brand */
 .navlink {
   font-family: 'Broadway', Arial, sans-serif;
-  font-size: 48px;
+  font-size: 28px;
   display: flex;
   justify-content: center;
-  gap: 30px;           /* was too wide (e.g., 200px) */
+  gap: 160px;           /* was too wide (e.g., 200px) */
   margin-top: 0.3rem;  /* Reduce vertical spacing */
   flex-wrap: wrap;
 }
