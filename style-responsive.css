@@ -65,12 +65,14 @@ body, html {
 }
 .nav a {
   text-decoration: none;
-  color: #FFFFFF;
+  color: white;
+  text-decoration: none; /* Optional: removes underline */
   font-weight: bold;
   font-size: 1rem;
 }
 
 .nav a:hover {
+  color: #ccc;
   text-decoration: underline;
 }
 
