@@ -57,6 +57,7 @@ body, html {
 .navlink {
   font-family: 'Broadway', Arial, sans-serif;
   font-size: 28px;
+  color: white;
   display: flex;
   justify-content: center;
   gap: 160px;           /* was too wide (e.g., 200px) */
