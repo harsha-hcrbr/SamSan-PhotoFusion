@@ -134,6 +134,10 @@ body, html {
   color: #FFF1B8;
 }
 
+.about-text li p {
+  color: white;
+}
+
 /* Services Section */
 .services {
   padding: 60px 20px;
