@@ -1,0 +1,174 @@
+/* General Reset */
+* 
+.main-wrapper {
+  min-height: calc(100vh - 120px); /* Adjust based on your header/footer height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color:#FFFFFF;
+}
+
+body, html {
+  font-family: Arial, sans-serif;
+  color: #FFF1B8;
+  font-size: 16px;
+  line-height: 1.6;
+  overflow-x: hidden;
+  background: linear-gradient(to right bottom, #0f0f0f, #1a1a1a);
+}
+
+/* Header */
+
+/* Reduce height and control width of the header */
+.header {
+  background-color: #000000;
+  padding: 0px 0;  /* was 36px — reduce top/bottom space */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Limit width of header content */
+.header-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Adjust brand spacing */
+.brand {
+  font-family: 'Broadway', Arial, sans-serif;
+  font-size: 56px;         /* Optional: reduce text size slightly */
+  padding: 0.5rem 0;       /* was 2rem — reduce vertical spacing */
+  margin-bottom: 0.3rem;   /* was 10px — bring nav closer */
+}
+
+/* Tighter spacing between nav and brand */
+.navlink {
+  font-family: 'Broadway', Arial, sans-serif;
+  font-size: 28px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 160px;           /* was too wide (e.g., 200px) */
+  margin-top: -1.7rem;  /* Reduce vertical spacing */
+  flex-wrap: wrap;
+}
+.nav a {
+  text-decoration: none;
+  color: white;
+  text-decoration: none; /* Optional: removes underline */
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.nav a:hover {
+  color: #ccc;
+  text-decoration: underline;
+}
+
+/* Gallery */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+  padding: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border: 4px solid #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.02);
+}
+
+/* Lightbox */
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  justify-content: center;
+  align-items: center;
+}
+
+.lightbox img {
+  max-width: 90vw;
+  max-height: 80vh;
+  width: auto;
+  height: auto;
+  border: 4px solid #fff;
+  border-radius: 8px;
+}
+
+.lightbox .controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 2em;
+  padding: 0 20px;
+  user-select: none;
+}
+
+.lightbox .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.control-btn {
+  cursor: pointer;
+  padding: 10px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    padding: 20px 10px;
+    align-items: center;
+  }
